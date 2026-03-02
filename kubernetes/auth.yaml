@@ -27,4 +27,7 @@ spec:
     spec:
       containers:
         - name: auth-api
-          image:
+          image: doc2346613/kub-dep-auth:latest
+          env:
+            - name: TOKEN_KEY
+              value: "SECURETOKENEKSAWS"
