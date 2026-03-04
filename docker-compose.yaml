@@ -11,5 +11,5 @@ services:
     ports:
       - "8080:3000"
     environment:
-      MONGODB_CONNECTION_URI: "mongodb+srv://ligesh_mongo_eks:XpZEGadj6D5He7oF@cluster0.qb5fhb7.mongodb.net/users?appName=Cluster0&retryWrites=true&w=majority"
+      MONGODB_CONNECTION_URI: "mongodb+srv://ligesh_mongo_eks:WGxlVsHpOttsjDOM@cluster0.yijxija.mongodb.net/users?appName=Cluster0"
       AUTH_API_ADDRESSS: "auth:3000"
