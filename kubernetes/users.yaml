@@ -29,8 +29,7 @@ spec:
         - name: users-api
           image: doc2346613/kub-dep-users:latest
           env:
-            - name: MONGO_CONNECTION_URI
+            - name: MONGODB_CONNECTION_URI
               value: "mongodb+srv://ligesh_mongo_eks:WGxlVsHpOttsjDOM@cluster0.yijxija.mongodb.net/users?appName=Cluster0"
-              name: AUTH_API_ADDRESS
+            - name: AUTH_API_ADDRESS
               value: "auth-service.default:3000"
-
